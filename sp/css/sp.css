@@ -1,0 +1,187 @@
+
+html,body{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:auto;
+}
+
+#wrapper{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  }
+
+img{
+  border-style: none;
+  width:100%;
+  height: auto;
+}
+
+/*ヘッダー*/
+
+.top{
+  background-color:#13A0FF;
+  width:100%;
+}
+
+.top img{
+  width:50%;
+  margin-left: 2%;
+}
+
+
+header .fa {
+  color:#FFFFFF;
+  margin-left:4%;
+  font-size: 6rem;
+  margin-bottom: 3%;
+}
+
+
+
+
+/*　body */
+
+/*
+.flex-caption {
+  background:none;
+  -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+  zoom: 1;
+}
+
+
+.flex-caption {
+  width: 100%;
+  padding: 9% 0%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(200,100,0,.5);
+  color: #fff;
+  text-shadow: 0;
+  font-size: 40px;
+  line-height: 16px;
+  text-align: center;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Mincho Pro", serif;
+}
+*/
+
+
+
+
+
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.address{
+  display:table;
+  table-layout: fixed;
+  border-collapse: collapse;
+  z-index: 10;
+}
+
+
+.tel {
+  display:table-cell;
+  margin:0;
+}
+
+.mail {
+  display:table-cell;
+  margin: 0;
+}
+
+
+
+
+
+.news ul{
+  border:solid 3px #898989;
+  border-radius: 20px;
+  padding:4%;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Mincho Pro", serif;
+  margin:3%;
+  color:#898989;
+  list-style-type:none;
+}
+
+
+
+
+
+.recommend{
+  table-layout: fixed;
+  margin:3%;
+  margin-bottom: 20%;
+}
+
+.recommend th,
+.recommend td{
+  border: 5px solid #FFFFFF;
+  text-align: left;
+  text-align: center;
+  width:50%;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.recommend th{
+  background-color:#13A0FF;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 2%;
+  color:#FFFFFF;
+}
+
+.recommend td{
+  color:#898989;
+}
+
+/*
+.sample{
+  table-layout: fixed;
+  margin:3%;
+}
+
+.sample th,
+.sample td{
+  border: 5px solid #FFFFFF;
+  text-align: left;
+  text-align: center;
+  width:50%;
+}
+
+
+.sample th{
+  background-color:#898989;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 2%;
+}
+*/
+
+/*フッター*/
+footer{
+  background-color:#13A0FF;
+  padding:10%;
+  text-align: center;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Mincho Pro", serif;
+  color:#FFFFFF;
+}
+
+.back i{
+  color:#898989;
+  font-size: 6rem;
+}
+
+.back {
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+｝

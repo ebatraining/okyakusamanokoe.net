@@ -1,0 +1,826 @@
+@charset "utf-8";
+#container {width:950px;
+margin:auto;}
+#my_body { overflow:hidden;
+width:100%;
+background-repeat:repeat-y;
+background-position:left top;
+margin: 0;
+}
+#my_navigation { float : right ; width : 260px ;margin: 20px 0;
+ }
+#my_navigation_1 { float : right ; width : 260px ;
+height:500px;
+height:auto;
+ }
+#my_navigation_2 { float : right ; width : 260px ;margin: 20px 0;
+ }
+#my_contents {width:690px;
+float:left;
+margin:20px 0;
+}
+#my_contents_vja {width:950px;
+float:left;
+margin:20px 0;
+}
+#my_contents_mixi {width:950px;
+font-family: meiryo, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+font-size:14px;
+margin:20px 0;
+}
+#my_contents_nagare_houhou {width:770px;
+float:left;
+margin:20px 0;
+font-size:14px;
+font-family:'メイリオ',serif;
+}
+#my_header { margin:0px auto; width: 950px;
+margin-bottom:3px;
+font-family:"メイリオ", Meiryo, sans-serif;
+ }
+.h_font {
+font-size:11px;
+color:#FF9900;
+margin: 0;
+}
+.top_message {
+float:left;
+width:160px;
+height:70px;
+margin-left:18px;
+}
+.fl-match {
+	float:left;
+}
+.fl-match-1 {
+	float:right;
+}
+.top_moji {
+font-size:12px;
+}
+.top_down {
+float:left;
+margin-top:20px;
+}
+.top_adoopi {float:left;
+}
+.top_adoopi_vja {float:left;
+}
+.top_adoopi_site {float:left;
+}
+.syoukai {float:left;
+}
+.syoukai_yohaku { margin-left:30px;
+}
+	  
+a:hover{color:#00ccff; }
+
+/* ------------------------------
+トップコンテンツ background-color:#E7F5F8;
+------------------------------ */
+.top_cont {
+	clear:both;
+}
+
+.top_cont ul { margin:0px auto; width: 950px;
+padding:0px;
+position:relative; top:3px;
+}
+.top_cont li { margin:0px auto;
+display:inline;
+ }
+
+.top_cont_ivent {
+	height:80px;
+	clear:both;
+	margin-bottom:25px;
+}
+
+.top_cont_ivent ul { margin:0px auto; width: 950px;
+padding:0px;
+position:relative; top:3px;
+}
+.top_cont_ivent li { margin:0px auto;
+display:inline;
+ }
+
+.top1 {margin-bottom:10px;
+margin-left:7px; }
+
+.service { margin:0px auto; width:950px;
+margin-top:10px;
+ }
+.service_vja { margin:0px auto; width:950px;
+margin-top:20px;
+ }
+.service_ivent { margin:0px auto; width:950px;
+clear:both;
+ }
+.service1 { margin:0px auto;
+float:none;
+clear:none; }
+.service_site_thanks { margin:0px auto; width:950px;
+margin-top:10px;
+ }
+.kaiin {clear:both;
+}
+.service_site { margin:0px auto; width:950px;
+margin-top:10px;
+ }
+.kaiin_touroku {
+	margin-bottom:20px;
+}
+
+.top_haikei_img {
+	float:left;
+	margin-left:20px;
+	margin-top:8px;
+font-family:'ＭＳ ゴシック',serif;
+font-size:14px;
+}
+
+.login_blank {
+	margin-top:5px;
+}
+
+.header_right {
+	float:left;
+	margin-left:20px;
+}
+
+.top_img {
+	clear:both;
+}
+.login_word {
+	margin-left:5px;
+}
+.form_yohaku {
+	margin-left:3px;
+}
+.fb_yoha {
+	margin-top:15px;
+}
+.naiyou {
+font-family: meiryo, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+font-size:14px;
+	clear:both;
+}
+.naiyou_1 {
+font-family: meiryo, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+font-size:14px;
+	clear:both;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.naiyou_2 {
+font-family: meiryo, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+font-size:14px;
+	clear:both;
+	margin-top:30px;
+}
+.naiyou_keisai {
+font-family: meiryo, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+font-size:14px;
+	clear:both;
+	padding-top:10px;
+}
+.moji_keisai {
+	padding-top:40px;
+	padding-left:20px;
+}
+.point_main_cont {
+	width:620px;
+	margin:auto;
+}
+
+.point_main_cont_2 {
+	width:620px;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	clear:both;
+}
+
+.point_main_cont_1 {
+	clear:both;
+	width:620px;
+	margin:auto;
+	margin-bottom:40px;
+	padding-top:40px;
+}
+
+.point_yohaku_db {
+	margin-left:5px;
+	margin-top:19px;
+	float:left;
+}
+
+.yohaku_point_top {
+	float:left;
+	width:220px;
+	margin-top:12px;
+}
+.yohaku_point_top_1 {
+	float:left;
+	width:220px;
+}
+
+.point_yohaku_db_1 {
+	margin-left:5px;
+	margin-top:7px;
+	float:left;
+}
+.point_yohaku_db_10 {
+	margin-left:5px;
+	float:left;
+}
+.point_yohaku_db_2 {
+	margin-left:5px;
+	margin-top:7px;
+	float:right;
+}
+
+.point_yohaku_db_3 {
+	margin-top:5px;
+	float:left;
+}
+
+.point_yohaku_right {
+	margin-left:40px;
+	margin-top:7px;
+	float:left;
+}
+
+.yohaku_point_syutoku {
+	float:left;
+	width:220px;
+	margin-top:5px;
+}
+
+.yohaku_point_change {
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.title_color {color:#FF6600;
+margin-left:10px;
+}
+.title_color_font {
+	color:#FF6600;
+	font-size:18px;
+}
+.kiyaku_haikei_1 {background:url(../img/kaiin/kiyaku_waku.jpg) 0 0 no-repeat;  
+height:130px;
+margin-bottom:30px;
+}
+
+.kiyaku_waku_1 {
+    width:620px;
+}
+
+.kyaku_koe_bc_1 {
+	padding-top:10px;
+}
+
+.kayku_koe_scroll_1 {overflow:scroll;
+padding-right:30px;
+padding-top:15px;
+padding-bottom:15px; 
+height:100px;
+}
+
+.kiyaku_haikei_1 {background:url(../img/anken/koukan_1_waku.jpg) 0 0 no-repeat;  
+height:130px;
+margin-bottom:30px;
+}
+.takasa_1 { margin-top:5px;
+}
+.takasa_syousai {
+padding-top:10px;
+}
+.txt_1 {
+	font-family:'メイリオ',serif;
+	font-size:13px;
+}
+.setumei_syousai {
+margin-top:20px;
+clear:both;
+}
+.setumei_syousai_2 {
+margin-top:30px;
+}
+.setumei_keisai {
+background:url(../img/keisai/haikei.jpg) 0 0 no-repeat;
+height:250px;
+}
+	
+.carsol {
+	margin-right:10px;
+}
+.kakunin_custom {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.login_page {
+	margin-top:20px;
+}
+.mae_botun {
+	margin-right:20px;
+}
+.fb_ichiran {
+clear:both;
+margin-top:10px;
+	font-family:'メイリオ',serif;
+	font-size:14px;
+}
+.towa_img {
+	background:url(../img/towa.jpg) 0 0 no-repeat;  
+height:50px;
+}
+.towa_img h2 {
+	vertical-align:middle;
+	font-family:'メイリオ',serif;
+	font-size:18px;
+	color:#FF9900;
+	padding-left:70px;
+	padding-top:10px;
+}
+.towa_img_font {font-size:14px;
+font-family:'メイリオ',serif;
+clear:both;
+
+}
+/* ------------------------------
+最上部バナー
+------------------------------ */
+.eba1 {margin-left:100px; }
+.eba2 {margin-left:130pt; }
+/* ------------------------------
+右メニューバー
+------------------------------ */
+.left_yoha {margin-bottom:15px; }
+.left_yoha1 {margin-bottom:15px;
+margin-left:5px; }
+.left_yoha2 {margin-bottom:15px;
+clear:none; }
+.left_yoha3 {margin-bottom:1px;
+margin-left:5px; }
+.left_yoha4 {margin-bottom:15px;
+margin-top:14px;
+margin-left:5px; }
+.left_yoha5 {margin-bottom:1px;
+margin-left:5px; }
+
+.yoko {margin:0px;
+list-style-type:none;
+list-style-position:outside;
+}
+
+.up {margin-top:50px;
+padding: 10px;
+ }
+
+.narabi1 {padding:0px;
+margin-top:15px;
+margin-left:15px;
+list-style-type: none;
+}
+
+.setumei_ba1 {margin-top:5px;
+float:none;
+clear:none;
+ }
+.setumei2 {margin-left:5px;
+margin-top:8px;
+font-size:14px;
+font-family:'ＭＳ ゴシック',serif；
+}
+
+.left_batop {margin-left:15px;
+margin-top:20px; }
+
+
+.kaijyo {float:none; }
+
+.kaijyo2 {float:none;
+clear:none;
+margin-left:50px; }
+.kaijyo3 {float:none;
+clear:none;
+margin-left:20px;
+margin-top:20px; }
+.kaijyo5 {margin-left:20px; }
+
+
+.up { margin-right:50px; }
+.yohaku1 {margin-left:65px;
+margin-top:10px; }
+.yohaku2 {margin-left:65px;
+margin-top:10px; }
+.yohaku3 {margin-left:65px;
+margin-top:15px; }
+.yohaku4 {margin-left:65px;
+margin-top:15px;
+clear:none; }
+.yoha {margin-left:65px;
+margin-top:15px; }
+.yohaku5 {margin-left:65px;
+margin-top:15px;
+ }
+
+#housyuu {
+	margin-bottom:30px;
+}
+.news {clear:both;
+ }
+.news_tb {margin-top:7px;
+margin-bottom:40px;
+}
+
+.midd_sen {border-style:double;
+border-color:#0CC; }
+
+.left_table {border-style:dotted;
+margin-bottom:30pt; }
+.left_table1 {margin-bottom:100pt; }
+
+.gaiyou_underline { color:#0EF8F2; }
+.zurashi {margin-left:20pt; }
+
+.logo1 {margin-left:50pt; }
+.logo2 {
+margin-top:20px;
+margin-bottom:10px;
+margin-left:3px; }
+
+.sen {border-style:dashed; }
+.age {margin-bottom:350pt; }
+
+.foot_yohaku {margin-bottom:15px;
+}
+.koefont {
+font-family:"メイリオ", Meiryo, sans-serif;
+font-size:13px;
+color:#FF9900;
+}
+.koefont_1 {
+font-family:"メイリオ", Meiryo, sans-serif;
+font-size:14px;
+}
+.koefont_2 {
+	float:left;
+}
+.font {color:#FFF;
+font-family:"メイリオ", Meiryo, sans-serif;
+font-size:18px;
+margin-top:8px;
+margin-left:33px;
+width:100px;
+}
+
+.log {margin-left:10px;
+margin-top:20px;
+width:140px;
+}
+
+/* ------------------------------
+お知らせ／トピック欄設定
+------------------------------ */
+.shirase { float: left;
+width:700px;
+margin-top:18px;
+margin-left:3px; }
+
+.facebook
+{ float: left;
+width:700px;
+margin-top:35px;
+margin-left:3px; }
+
+.moji {font-size:12px;
+font-family:"ＭＳ Ｐ明朝","平成明朝",serif；
+margin-left:10px; }
+
+.news_yohaku {margin-top:20px; }
+
+#iine {padding-left:40px;
+}
+.kiyaku_top_title {
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:14px;
+}
+.kiyaku_bun {
+	padding-left:10px;
+font-family:"メイリオ", Meiryo, sans-serif;
+font-size:14px;
+}
+.kiyaku_bun_ichi {
+font-family:"メイリオ", Meiryo, sans-serif;
+font-size:14px;
+}
+.category_font_ichi {
+padding-left:10px;
+font-family: meiryo, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+color:#FF9900;
+font-size:16px;
+}
+.category_font {
+font-family: meiryo, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+color:#FF9900;
+font-size:16px;
+}
+.kiyaku_haikei {background:url(../img/kaiin/kiyaku_waku.jpg) 0 0 no-repeat;  
+height:200px;
+margin-top:20px;
+margin-bottom:30px;
+}
+
+.kiyaku_waku{
+    width:670px;
+}
+
+.kyaku_koe_bc{
+	padding-top:10px;
+}
+
+.kayku_koe_scroll{overflow:scroll;padding:15px; height:170px;
+font-size:14px;
+}
+
+.kiyaku_haikei {background:url(../img/news_waku.jpg) 0 0 no-repeat; 
+height:200px;
+margin-bottom:30px;
+}
+
+.kiyaku {
+font-size:14px;
+font-family:'メイリオ',serif;
+margin-top:20px;
+padding-bottom:10px;
+}
+
+.kiyaku_text {
+	font-size:17px;
+	font-weight:600;
+	padding-top:30px;
+}
+
+/* ------------------------------
+画像横並びにする
+------------------------------ */
+
+.koukoku {clear:both;
+}
+.error {clear:both;
+font-size:14px;
+font-family:'メイリオ',serif;
+}
+.error_1 {
+float:left;
+margin-top:10px;
+}
+.news_img {
+margin-top:20px;
+clear:both;
+}
+news_img_top {
+padding-top:20px;
+clear:both;
+}
+.syukkou {float:left;
+}
+.syukkou_memo {float:left;
+}
+.category_yoha {
+margin-bottom:10px;
+}
+/* ------------------------------
+フッター
+------------------------------ */
+
+.las_cate {margin:0px auto; width: 950px; }
+.my_footer {margin:0px auto; width: 950px;
+margin-top:10px;
+float : left ; }
+
+.last_list ul {list-style:none;
+margin-left:150px;
+margin-top:20px;
+ }
+.last_list li {display:inline;
+padding-left:22px;
+}
+.last_list_1 ul {list-style:none;
+margin-bottom:30px;
+margin-left:230px; }
+.last_list_1 li {display:inline;
+padding-left:22px;
+}
+
+.last_line {clear:left;
+ }
+.last_line_toi {clear:left;
+margin-top:50px;
+ }
+
+.eba_last1 {margin-left:185pt; }
+
+.siz {font-size:13px;
+font-family:"ＭＳ ゴシック",serif；
+ }
+
+.foot_logo {margin-top:10px;
+margin-bottom:10px; }
+
+.footer_haikei {background:url(../img/footer_back.jpg) 0 0 repeat-x;
+	height:60px;
+	clear:both;
+	margin-top:10px;
+}
+
+.moji_foot {color:#FFF;
+font-family: meiryo, 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+font-size:14px;
+padding-top:20px;
+}
+
+.last_list_2 ul {list-style:none;
+margin-top:20px;
+ }
+.last_list_2 li {display:inline;
+padding-left:22px;
+}
+.last_list_3 ul {list-style:none;
+margin-bottom:30px;
+margin-left:10px; 
+}
+.last_list_3 li {display:inline;
+padding-left:22px;
+}
+.under_waku {
+	margin-right:70px;
+}
+.form_yoha_question { 
+	word-break:break-all;
+ }
+
+/* ------------------------------
+index.phpのファイル内容が上。
+このファイル以外にCSSで必要なコードは、
+下記に書いていく。
+------------------------------ */
+
+
+/* ------------------------------
+housyuu.html
+------------------------------ */
+#friends { margin-right:10px;
+margin-top:5px;
+}
+
+.shiharai { margin-top:10px;
+width:765px;
+font-size:14px;
+font-family:"ＭＳ ゴシック",serif；}
+.shiharai_housyuu { margin-top:10px;
+width:765px;
+line-height:20px;
+font-size:14px;
+font-family:"ＭＳ ゴシック",serif；}
+
+.danraku_yoha {
+	color:#FF6600;
+	font-size:15px;
+}
+
+.danraku_naiyou {
+	margin-bottom:10px;
+}
+
+/* ------------------------------
+sakusei.html
+------------------------------ */
+.waku {background:url(../img/waku.jpg) 0 0 no-repeat ;     
+	height:341px;
+	clear:both;	
+}
+
+.text1 {margin-left:30px;
+font-size:14px;
+font-family:'ＭＳ ゴシック',serif；
+}
+.text2 {margin-left:30px;
+margin-top:35px;
+font-size:14px;
+font-family:'ＭＳ ゴシック',serif；
+}
+.text3 {margin-left:30px;
+margin-top:35px;
+font-size:14px;
+font-family:'ＭＳ ゴシック',serif；
+}
+.text4 {margin-left:30px;
+margin-top:35px;
+font-size:14px;
+font-family:'ＭＳ ゴシック',serif；
+}
+.text5 {margin-left:30px;
+margin-top:35px;
+font-size:14px;
+font-family:'ＭＳ ゴシック',serif；
+}
+.text4_voice { margin-left:30px;
+margin-top:32px;
+font-size:14px;
+font-family:'ＭＳ ゴシック',serif；
+}
+
+.text5_voice {
+	margin-left:30px;
+margin-top:35px;
+font-size:14px;
+font-family:'ＭＳ ゴシック',serif；
+}
+.touroku {margin-top:20px;
+margin-bottom:20px;
+}
+.touroku_2 {margin-top:30px;
+margin-bottom:20px;
+}
+.yohaku {
+	margin-top:45px;
+}
+.yohaku_voice {
+	margin-top:0px;
+}
+
+.kouka {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.site_list_title {
+	margin-top:10px;
+}
+
+.site_list {
+	margin-bottom:20px;
+}
+
+.waku_kouka {
+	clear:both;	
+	margin-bottom:40px;
+}
+
+.toiawase {background:url(../img/toiawase.jpg) 0 0 no-repeat ;     
+	height:250px;
+	clear:both;
+	margin-bottom:30px;
+}
+#toiawase {margin-top:160px;
+margin-left:440px;
+}
+
+/* ------------------------------
+koukoku.php
+------------------------------ */
+
+.nagare {margin-top:10px;
+}
+
+.merit_yohaku {
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.siryou {background:url(../img/toiawase.jpg) 0 0 no-repeat ;     
+	height:250px;
+	clear:both;
+	margin-bottom:30px;
+	margin-top:40px;
+}
+#voice_yohaku {
+padding-left:530px;
+margin-bottom:10px;
+margin-top:40px;
+}
+.bottun {
+	margin-top:20px;
+}
+.soushin_botun {
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.mae_yohaku {
+	margin-bottom:30px;
+}
+.yohaku_naiyou {
+	padding-top:50px;
+}
+
+.kayku_koe_scroll{
+	overflow:scroll;
+	padding:15px; 
+	height:170px;
+	font-size:14px;
+}

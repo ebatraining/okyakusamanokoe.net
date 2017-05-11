@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<title>
+お客様の声.net
+</title>
+<meta charset="utf-8">
+<meta name="keywords" content="お客様の声,お客様の声.net,okyakusamanokoe,お客様,口コミ">
+<meta name="description" content="お客様の声.netは、お客様の声が掲載されているWebページをご紹介するサイトです。当サイトをご覧になり、ユーザー様が購入検討している商品について比較検討の上、購買アクション等につなげていただければ幸いです。">
+<meta name="format-detection" content="telephone=no"><!--電話　タップ-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><!-- アイコン　-->
+<link rel="stylesheet" href="css/sp.css">
+<!--ＵＲＬ正規化-->
+<link rel="canonical" href="http://okyakusamanokoe.net/" />
+<!-- flexs slider -->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script>
+$(window).load(function() {
+$('.flexslider').flexslider({
+  });
+});
+</script>
+<script>
+// jQuery
+$(function() {
+  var gNav = $(".address");
+  var gNavOffset = gNav.offset();
+
+  $(window).scroll(function () {
+    if($(this).scrollTop() > gNavOffset.top && gNav.hasClass('fixed') == false) {
+      gNav.css({"top": '-70px'});
+      gNav.addClass('fixed');
+      gNav.animate({"top": 0},500);
+    }
+    else if($(this).scrollTop() < gNavOffset.top && gNav.hasClass('fixed') == true){
+      gNav.removeClass('fixed');
+    }
+  });
+});
+</script>
+<!--<script>
+jQuery(function() {
+    var nav = jQuery('.address');
+
+    // メニューのtop座標を取得する
+    var offsetTop = nav.offset().top;
+
+    var floatMenu = function() {
+        // スクロール位置がメニューのtop座標を超えたら固定にする
+        if (jQuery(window).scrollTop() > offsetTop) {
+            nav.addClass('fixed');
+        } else {
+            nav.removeClass('fixed');
+        }
+    }
+    jQuery(window).scroll(floatMenu);
+    jQuery('body').bind('touchmove', floatMenu);
+});
+</script>-->
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header"></div><!--　先頭に戻る　-->
+    <header>
+      <div class="top">
+        <img src="images/top.png">
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <a href="https://twitter.com/intent/tweet?hashtags=お客様の声.net" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+      </div>
+      <div class="address">
+        <div class="tel">
+          <a href="tel:03-5778-4829 "><img src="images/tel.png"></a>
+        </div>
+        <div class="mail">
+          <a href="mailto:postmaster@okyakusamanokoe.net "><img src="images/mail.png"></a>
+        </div>
+      </div>
+    </header>
+    <div class="flexslider">
+      <ul class="slides">
+        <li><img src="images/slide3.png" /></li>
+        <li><img src="images/slide2.png" /></li>
+        <li><img src="images/slide1.png" /></li>
+      </ul>
+    </div>
+    <div class="question">
+      <img src="images/sample.png" />
+    </div>
+    <section class="news">
+      <img src="images/news.png" />
+      <ul>
+        <li>2016/11/21　日立重機設計様の詳細ページを追加しました。</li>
+        <li>2016/11/06　カーサイネス様の詳細ページを追加しました。</li>
+        <li>2016/10/15　ヘルスケアDIV様の詳細ページを追加しました。</li>
+        <li>2016/09/23　メディカルケアーズ様の詳細ページを追加しました。<li>
+        <li>2016/09/16　uruoi様の詳細ページを変更しました。</li>
+        <li>2016/09/10　ゼマイティス様の詳細ページを追加しました。</li>
+        <li>2016/09/05　グリーンポケット様の詳細ページを追加しました。</li>
+        <li>2016/08/27　クリード様の詳細ページを追加しました。</li>
+        <li>2016/08/20　フェーブリー様の詳細ページ追加しました。</li>
+      </ul>
+    </section>
+    <img src="images/recommend.png" />
+    <!--<table class="sample">
+      <tr>
+        <th>テキスト</th><th>テキスト</th>
+      </tr>
+      <tr>
+        <td><img src="img/error.jpg"></td>
+        <td><img src="img/error.jpg"></td>
+      </tr>
+      <tr>
+        <td>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</td>
+        <td>テキストテキストテキストテキストテキストテキスト</td>
+      </tr>
+      <tr>
+        <th>テキスト</th><th>テキスト</th>
+      </tr>
+      <tr>
+        <td><img src="img/error.jpg"></td>
+        <td><img src="img/error.jpg"></td>
+      </tr>
+      <tr>
+        <td>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</td>
+        <td>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</td>
+      </tr>
+    </table>-->
+    <table class="recommend">
+      <tr>
+        <th>uruoi</th><th>ADooPi</th>
+      </tr>
+      <tr>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_1.html"><img src="images/table1.png"></a></td>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_2.html"><img src="images/table2.png"></a></td>
+      </tr>
+      <tr>
+        <td>KYOKIORAは不純物ゼロの純水100％の化粧水です。薬剤、防腐剤などは一切含まないので安心・安全です。</td>
+        <td>SNSやブログ等で、記事を投稿するだけで高額なポイントを獲得することができるお得なサイトです。</td>
+      </tr>
+      <tr>
+        <th>飯塚金属</th><th>なかのたにさわやか村</th>
+      </tr>
+      <tr>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_4.html"><img src="images/table3.png"></a></td>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_36.html"><img src="images/table4.png"></a></td>
+      </tr>
+      <tr>
+        <td>新潟県の「キセル職人」が精魂こめて作りあげる人気のキセル販売サイトです。</td>
+        <td>環境に配慮した減農薬特別栽培の美味しいお米を販売しているサイトです。</td>
+      </tr>
+      <tr>
+        <th>EBA</th><th>凛麗茶</th>
+      </tr>
+      <tr>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_5.html"><img src="images/table5.png"></a></td>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_6.html"><img src="images/table6.png"></a></td>
+      </tr>
+      <tr>
+        <td>Web広告、Webページを制作しているている企業です。人気ブロガーによるブログ広告も大変好評です。</td>
+        <td>便秘やダイエットに効果的な凛麗茶販売サイトです。腸の働きを活性化させ、健康的にダイエットしましょう。</td>
+      </tr>
+      <tr>
+        <th>神仙堂薬局</th><th>分析屋</th>
+      </tr>
+      <tr>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_8.html"><img src="images/table7.png"></a></td>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_10.html"><img src="images/table8.png"></a></td>
+      </tr>
+      <tr>
+        <td>ラルハラスメント(モラハラ)やDVの解決のため、必要な手立てをご紹介しています。</td>
+        <td>精度の高い予測を行うためのデータマネジメントから分析をして「どんな未来に進むのか？」を提供している企業です。</td>
+      </tr>
+      <tr>
+        <th>家庭教師の満点</th><th>MISUMI</th>
+      </tr>
+      <tr>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_9.html"><img src="images/table9.png"></a></td>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_14.html"><img src="images/table10.png"></a></td>
+      </tr>
+      <tr>
+        <td>現役医学部・歯学部生のみが多数在籍しています。一人ひとりに合わせた細やかな指導が好評です。</td>
+        <td>ファッション性の高い数珠やブレスレット等を一つ一つ丁寧に作り上げているアクセサリーブランドです。</td>
+      </tr>
+      <tr>
+        <th>フェーブリー</th><th>クリード</th>
+      </tr>
+      <tr>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_15.html"><img src="images/table11.png"></a></td>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_16.html"><img src="images/table12.png"></a></td>
+      </tr>
+      <tr>
+        <td>プチ断食に効果的な酵素ダイエット製品を取り扱うサイトです。代謝UP+腸洗浄でスッキリ痩せましょう。</td>
+        <td>神奈川県を中心に観葉植物をレンタルしている企業です。現在、お試しレンタルも実施中です。</td>
+      </tr>
+      <tr>
+        <th>グリーンポケット</th><th>ゼマイティス</th>
+      </tr>
+      <tr>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_17.html"><img src="images/table13.png"></a></td>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_23.html"><img src="images/table14.png"></a></td>
+      </tr>
+      <tr>
+        <td>お花や観葉植物のレンタル企業です。店舗やオフィス内の観葉植をトータルコーディネートしてくれます。</td>
+        <td>電子治療器、電解水生成器、健康食品など、健康生活にお役に立つ商品を、格安価格にて販売しているサイトです。</td>
+      </tr>
+      <tr>
+        <th>メディカルケアーズ</th><th>ヘルスケアDIV</th>
+      </tr>
+      <tr>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_34.html"><img src="images/table15.png"></a></td>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_38.html"><img src="images/table16.png"></a></td>
+      </tr>
+      <tr>
+        <td>「からだにやさしい手作りの家庭料理」をテーマに製造した療養食を全国に宅配しているサービスです。</td>
+        <td>毎日の健康に役立つ乳酸菌サプリメントを豊富に取り揃えている通販サイトです。</td>
+      </tr>
+      <tr>
+        <th>カーサイネス</th><th>日立重機設計</th>
+      </tr>
+      <tr>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_40.html"><img src="images/table17.png"></a></td>
+        <td><a href="http://okyakusamanokoe.net/voice_syousai/customer_44.html"><img src="images/table18.png"></a></td>
+      </tr>
+      <tr>
+        <td>フランスやアメリカから輸入した素敵なインテリア雑貨を多数取り揃えた軽井沢の店舗です。</td>
+        <td>エアーバランサーMr.キャッチマンをはじめ、工業用重機を製造・販売している企業です。</td>
+      </tr>
+    </table>
+    <footer>
+     <span>copyright&#xA9;okyakusamanokoe.net</span> 
+    </footer>
+    <div class="back">
+      <a href="#header"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+    </div>
+  </div><!--wrapper end-->
+</body>
+</html>
